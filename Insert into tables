@@ -1,0 +1,46 @@
+INSERT INTO customers (customer_id, customer_name, gender, age, city, join_date) VALUES
+('C001','Aarav Sharma','Male',28,'Mumbai','2023-01-15'),
+('C002','Priya Verma','Female',32,'Delhi','2023-02-20'),
+('C003','Rahul Singh','Male',25,'Bengaluru','2023-03-05'),
+('C004','Neha Patel','Female',30,'Ahmedabad','2023-01-30'),
+('C005','Vikram Joshi','Male',35,'Pune','2023-04-10'),
+('C006','Ananya Roy','Female',27,'Kolkata','2023-05-12'),
+('C007','Rohan Mehta','Male',31,'Jaipur','2023-06-18'),
+('C008','Sneha Iyer','Female',29,'Chennai','2023-07-25'),
+('C009','Karan Malhotra','Male',33,'Hyderabad','2023-08-08'),
+('C010','Pooja Nair','Female',26,'Kochi','2023-09-14');
+
+
+INSERT INTO products (product_id, product_name, category, price) VALUES
+('P101','Wireless Mouse','Electronics',899),
+('P102','Mechanical Keyboard','Electronics',2499),
+('P103','Office Chair','Furniture',6999),
+('P104','Water Bottle','Home',499),
+('P105','Laptop Stand','Accessories',1299),
+('P106','USB Hub','Electronics',799),
+('P107','Notebook','Stationery',199),
+('P108','Desk Lamp','Home',1499),
+('P109','Monitor 24 Inch','Electronics',12999),
+('P110','Backpack','Accessories',1899);
+
+INSERT INTO orders (order_id, customer_id, product_id, quantity, order_date) VALUES
+('O1001','C001','P101',2,'2024-01-05'),
+('O1002','C002','P103',1,'2024-01-07'),
+('O1003','C001','P105',1,'2024-01-15'),
+('O1004','C003','P102',1,'2024-02-10'),
+('O1005','C004','P104',4,'2024-02-18'),
+('O1006','C005','P103',1,'2024-03-01'),
+('O1007','C002','P101',3,'2024-03-10'),
+('O1008','C003','P104',2,'2024-03-15'),
+('O1009','C001','P102',1,'2024-04-02'),
+('O1010','C004','P105',2,'2024-04-18'),
+('O1011','C006','P110',1,'2024-05-03'),
+('O1012','C007','P109',1,'2024-05-12'),
+('O1013','C008','P108',2,'2024-06-01'),
+('O1014','C009','P106',3,'2024-06-18'),
+('O1015','C010','P107',5,'2024-07-04'),
+('O1016','C005','P101',1,'2024-07-15'),
+('O1017','C006','P103',1,'2024-08-09'),
+('O1018','C007','P105',2,'2024-08-20'),
+('O1019','C008','P109',1,'2024-09-11'),
+('O1020','C010','P102',1,'2024-10-05');
