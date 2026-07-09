@@ -1,0 +1,11 @@
+customer_id,customer_name,gender,age,city,join_date
+C001,Aarav Sharma,Male,28,Mumbai,2023-01-15
+C002,Priya Verma,Female,32,Delhi,2023-02-20
+C003,Rahul Singh,Male,25,Bengaluru,2023-03-05
+C004,Neha Patel,Female,30,Ahmedabad,2023-01-30
+C005,Vikram Joshi,Male,35,Pune,2023-04-10
+C006,Ananya Roy,Female,27,Kolkata,2023-05-12
+C007,Rohan Mehta,Male,31,Jaipur,2023-06-18
+C008,Sneha Iyer,Female,29,Chennai,2023-07-25
+C009,Karan Malhotra,Male,33,Hyderabad,2023-08-08
+C010,Pooja Nair,Female,26,Kochi,2023-09-14
